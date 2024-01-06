@@ -13,6 +13,8 @@
 6. Forcefully push the changes
 
 ```
+![Alt Text](image/IMG_2.jpeg)
+
 **Commands regarding above**
 ```shell
 1. git reset --hard previous-commit-id
