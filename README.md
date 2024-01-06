@@ -17,7 +17,7 @@ password: admin
 
 ```
 
-![Alt Text](ima/img.png)
+![Alt Text](image/img.png)
 
 **Now check the IP address of the machine on which you are running this image**
 ```shell
@@ -25,13 +25,12 @@ For instance: I am running this image on my mac and want to copy data from my wi
 I need IP address of my mac because I want to hit the URL of http server which is running on my mac.
 
 ```
-![Alt Text](ima/img.png)
+![Alt Text](image/img_1.png)
 
 ```shell
 This example, I am using from mac so that's why using localhost but you need to put your mac IP address if you are accessing from
 some another machine.
 
 ```
-![Alt Text](ima/img_1.png)
 
 
