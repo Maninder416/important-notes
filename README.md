@@ -1,4 +1,6 @@
-# Important command which you should know in industry
+# Important Git commands which you should know in industry
+
+# The below commands we use when there is merge commit present in your commit history.
 
 **Follow these steps when merge commit issue**
 
@@ -38,6 +40,23 @@ git add docs && git commit -m "docs(architecture): updated the puml file CX-656"
 git push --force origin fature/CX-656
 
 ```
+
+# Follow these steps when there is no merge commit present, but you want to maintain the good commit history
+
+**1. Move to the previous commit on which you want to add your code for good commit history**
+
+```shell
+This is the commit id for tester on the top of that I need to add my code.
+
+```
+```shell
+1. git reset --soft previous-commit-id
+2. git status
+3. git restore --staged .
+4. git add docs && git commit -m "docs(architecture): updated the puml file CX-656"
+
+```
+
 
 **6. Here is the screenshot of the commands which I am using currently.**
 
