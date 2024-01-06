@@ -41,10 +41,9 @@ This is the commit id for tester on the top of that I need to add my code.
 5. git push -f
 
 ```
-
-# Sometimes when you move your code to previous commit for instance tester commit, in that scenario all the changes you will see that is
-# merged in your dev branch including the changes you have done in your branch, but you need only changes that are being done by you. So
-# in this case, we follow below-mentioned steps: Also see the image attached at the end.
+**Sometimes when you move your code to previous commit for instance tester commit, in that scenario all the changes you will see that is**
+**merged in your dev branch including the changes you have done in your branch, but you need only changes that are being done by you**
+**in this case, we follow below-mentioned steps: Also see the image attached at the end.**
 
 ```shell
 1. git reset --soft previous-commit-id
