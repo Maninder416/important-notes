@@ -13,7 +13,7 @@
 6. Forcefully push the changes
 
 ```
-![Alt Text](image/IMG_2.jpeg)
+![Alt Text](image/IMG_3.jpeg)
 
 **Commands regarding above**
 ```shell
